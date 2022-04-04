@@ -35,7 +35,7 @@ jobs:
           ls -a
           echo
           echo is java installed?
-          java -version
+          java --version
           echo what about build tools?
           mvn --version
           gradel --version
